@@ -26,7 +26,7 @@ public class Day1{
     public static List<List<Integer>> getInput() throws IOException {
         List<Integer> listLeft = new ArrayList<>();
         List<Integer> listRight = new ArrayList<>();
-        List<String> lines = Files.readAllLines(Paths.get("F:\\GITHUB\\AOC2024\\src\\main\\java\\nl\\kvdmr\\Day1\\input.txt"));
+        List<String> lines = Files.readAllLines(Paths.get("src/main/java/nl/kvdmr/Day1/input.txt").toAbsolutePath());
 
         for (String line : lines) {
             // Splits iedere regel op spatie en voeg toe aan respectievelijke lijsten
